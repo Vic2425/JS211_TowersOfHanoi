@@ -30,6 +30,12 @@ Your checkpoint is really a terminal app; which is what you'll be graded on. How
   * Vertical columns
   * Proportional Stones/tokens
 
+* **My Code Plan** 
+1. movePiece : select block and move it- using pop and push. 
+2. isLegal : check if blocks are following the rules, such as only smaller block on top of bigger block. Use < or > for testing. Return boolean. 
+3. checkForWin : check if endStack has all the blocks from biggest at the bottom to smallest on the top. Test condition should detect a win. Else try again.
+
+<br>
 ### Example
 
 Dissect the [following game](https://codepen.io/austincoding/pen/YxMBPV/) to get an insight on how to build Towers of Hanoi with a GUI

@@ -29,6 +29,7 @@
 
 .stone {
   z-index: 10;
+  border-radius: ;
 }
 
 [data-color] {
@@ -37,22 +38,22 @@
 }
 
 [data-color="blue"] {
-  height: 33px;
+  height: 40px;
   background-color: blue;
 }
 
 [data-color="green"] {
-  height: 33px;
+  height: 60px;
   background-color: green;
 }
 
 [data-color="red"] {
-  height: 33px;
+  height: 80px;
   background-color: red;
 }
 
 [data-color="yellow"] {
-  height: 33px;
+  height: 100px;
   background-color: yellow;
 }
 
